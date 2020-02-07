@@ -1,0 +1,3 @@
+include ':app', ':zz-letters-sidebar'
+rootProject.name='Phone List'
+project(':zz-letters-sidebar').projectDir = new File('Lib/zz-letters-sidebar')
